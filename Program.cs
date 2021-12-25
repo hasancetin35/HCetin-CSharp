@@ -6,7 +6,10 @@ namespace HCetin_CSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Odevler nesne = new Odevler();
+
+            nesne.İlk();
         }
     }
 }
