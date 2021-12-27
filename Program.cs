@@ -10,6 +10,13 @@ namespace HCetin_CSharp
             Odevler nesne = new Odevler();
 
             nesne.İlk();
+
+
+            nesne.Degiskenler();
+
+
+
+
         }
     }
 }

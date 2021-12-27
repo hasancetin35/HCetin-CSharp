@@ -27,5 +27,40 @@ namespace HCetin_CSharp
 
 
 
+
+        public void Degiskenler()
+        {
+            int degisken = 5;
+            string deger = null;
+
+            byte b = 5;
+
+            sbyte c = 6;
+
+            short s = 5;
+
+
+            Int32 say = 12;
+
+            float fsay = 34;
+
+            char ch = 'h';
+
+            bool bl = true;
+
+            DateTime dt = DateTime.Now;
+
+            object o1 = "h";
+            object o2 = 6;
+
+
+            Console.WriteLine(deger + dt.ToString());
+
+
+            Console.WriteLine(DateTime.Now.ToString("HH:mm"));
+        }
+
+
+
     }
 }
