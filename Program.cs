@@ -16,7 +16,7 @@ namespace HCetin_CSharp
 
             nesne.Operatorler();
 
-
+            nesne.tip_donusum();
         }
     }
 }

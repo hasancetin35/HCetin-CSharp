@@ -106,7 +106,30 @@ namespace HCetin_CSharp
 
         }
 
+        public void tip_donusum()
+        {
 
+
+            byte a = 4;
+            byte b = 3;
+
+
+            int c = a + b;
+
+            Console.WriteLine(c);
+
+
+
+            string e = "merhaba";
+            string f = " dünya";
+
+            char g = '2';
+            object obj = e + f+ g;
+
+            Console.Write(obj);
+
+
+        }
 
 
 
