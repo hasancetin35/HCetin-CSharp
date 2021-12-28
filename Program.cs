@@ -12,9 +12,9 @@ namespace HCetin_CSharp
             // nesne.İlk();
 
 
-           // nesne.Degiskenler();
+            // nesne.Degiskenler();
 
-
+            nesne.Operatorler();
 
 
         }

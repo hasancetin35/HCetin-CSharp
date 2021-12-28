@@ -63,10 +63,46 @@ namespace HCetin_CSharp
         public void Operatorler()
         {
 
+            int x = 5;
+            int y = 5;
+            y = y + 3;
+            Console.WriteLine(y);
+            y += 3;
+            y /= 1;
+            Console.WriteLine(y);
+
+            // Mantıksal Operatörler
+
+            bool isSucces = true;
+            bool iscompleted = false;
+
+            if (isSucces && iscompleted)
+            {
+                Console.WriteLine("şart doğru");s
+
+            }
+
+            if (isSucces  || iscompleted)
+            {
+                Console.WriteLine("Harika"); 
+
+            }
 
 
+            int h = 3;
+            int k = 4;
+            bool sonuc = h < k;
+            Console.WriteLine(sonuc);
+
+            int sayi1 = 5;
+            int sayi2 = 7;
+            int sonucc = sayi1 + sayi1;
+
+            Console.WriteLine(sonucc);
 
 
+            int sonucm = 20 % 3;
+            Console.WriteLine(sonucm);
 
         }
 
