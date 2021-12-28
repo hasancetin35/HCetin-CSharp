@@ -60,6 +60,18 @@ namespace HCetin_CSharp
             Console.WriteLine(DateTime.Now.ToString("HH:mm"));
         }
 
+        public void Operatorler()
+        {
+
+
+
+
+
+
+        }
+
+
+
 
 
     }
