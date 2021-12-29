@@ -78,7 +78,7 @@ namespace HCetin_CSharp
 
             if (isSucces && iscompleted)
             {
-                Console.WriteLine("şart doğru");s
+                Console.WriteLine("şart doğru");
 
             }
 
@@ -179,7 +179,53 @@ namespace HCetin_CSharp
             string sonuc = time <= 12 ? "Günaydın" : time <= 18 ? "Tünaydın" : " iyi geceler";
         }
 
-        
+        public void SwitchCase ()
+        {
+
+            int month = DateTime.Now.Month;
+
+
+
+            switch (month)
+            {
+
+                case 1:
+                Console.WriteLine("Ocak");
+                    break;
+                case 2:
+                    Console.WriteLine("Şubat");
+                    break;
+
+                case 12:
+                    Console.WriteLine("Aralık");
+                    break;
+
+
+
+                default:
+                    Console.WriteLine("Yanlış veri girildi");
+                    break;
+            }
+
+            switch (month)
+            {
+
+                case 1:
+                case 2:
+                case 3:
+                    Console.WriteLine("Kış Mevsimi");
+                    break;
+
+                default:
+                    break;
+            }
+
+
+
+
+        }
+
+
 
 
     }
