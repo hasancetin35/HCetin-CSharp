@@ -20,6 +20,8 @@ namespace HCetin_CSharp
 
 
             nesne.hatayakalama();
+
+            nesne.ifelseif();
         }
     }
 }

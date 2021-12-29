@@ -155,7 +155,31 @@ namespace HCetin_CSharp
 
         }
 
+        public void ifelseif()
+        {
 
+            int time = DateTime.Now.Hour;
+            Console.WriteLine(time);
+
+
+            if (time >= 6 && time <= 12)
+            {
+                Console.WriteLine("Günaydın");
+            }
+            else if (time <= 18)
+            {
+
+                Console.WriteLine("Tünaydın");
+
+            }
+
+            else
+                Console.WriteLine("İyi geceler");
+
+            string sonuc = time <= 12 ? "Günaydın" : time <= 18 ? "Tünaydın" : " iyi geceler";
+        }
+
+        
 
 
     }
