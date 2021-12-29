@@ -284,6 +284,39 @@ namespace HCetin_CSharp
 
         }
 
+        public void Arrayornek()
+        {
+            int[] sayidizisi = { 6, 7, 3, 9, 6, 2, 7, 12, 6, 8, 8 };
+
+
+
+
+            foreach (var say in sayidizisi)
+            {
+                Console.WriteLine(say);
+            }
+
+
+            Array.Sort(sayidizisi);
+            foreach (var say in sayidizisi)
+            {
+                Console.WriteLine(say);
+            }
+            Array.Clear(sayidizisi, 2, 2);
+
+            Array.Reverse(sayidizisi);
+
+            Array.IndexOf(sayidizisi, 7);
+
+
+
+
+
+
+
+
+
+        }
 
 
 
