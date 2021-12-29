@@ -252,6 +252,38 @@ namespace HCetin_CSharp
 
         }
 
+        public void diziler()
+        {
+
+            string[] renkler = new string[5];
+
+            string[] hayvanlar = { "kedi", "köpek", "kuş", "at" };
+
+
+
+            int[] dizi;
+
+            dizi = new int[5];
+
+
+            renkler[0] = "mavi";
+
+            Console.WriteLine(hayvanlar[1]);
+
+            int[] diziuzunluk = new int[5];
+
+            foreach (var diz in diziuzunluk)
+            {
+
+                Console.WriteLine(diz);
+            }
+
+
+
+
+
+        }
+
 
 
 
