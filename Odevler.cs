@@ -225,6 +225,33 @@ namespace HCetin_CSharp
 
         }
 
+        public void whileornek()
+        {
+
+            int sayi = int.Parse(Console.ReadLine());
+            int sayac = 1;
+            int toplam = 0;
+            while (sayac<=sayi)
+            {
+
+
+                toplam = toplam + sayac;
+
+
+                sayac++;
+            }
+            Console.WriteLine(toplam);
+
+            string[] arabalar = { "bmv", "mercedes", "nissan", "opel" };
+
+            foreach (var araba in arabalar)
+            {
+                Console.WriteLine(araba);
+            }
+
+
+        }
+
 
 
 

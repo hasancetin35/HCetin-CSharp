@@ -14,16 +14,18 @@ namespace HCetin_CSharp
 
             // nesne.Degiskenler();
 
-           // nesne.Operatorler();
+            // nesne.Operatorler();
 
-          //  nesne.tip_donusum();
+            //  nesne.tip_donusum();
 
 
-          //  nesne.hatayakalama();
+            //  nesne.hatayakalama();
 
-          //  nesne.ifelseif();
+            //  nesne.ifelseif();
 
-            nesne.SwitchCase();
+            // nesne.SwitchCase();
+
+            nesne.whileornek();        
         }
     }
 }
