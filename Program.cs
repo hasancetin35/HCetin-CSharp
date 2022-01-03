@@ -25,7 +25,18 @@ namespace HCetin_CSharp
 
             // nesne.SwitchCase();
 
-            nesne.whileornek();        
+            nesne.whileornek();
+
+            nesne.diziler();
+
+            nesne.whileornek();
+
+            nesne.Yazdir(5 , 6);
+            nesne.Yazdir("Hasan", "Çetin");
+
+            Console.WriteLine(nesne.fak(6));
+
+            
         }
     }
 }

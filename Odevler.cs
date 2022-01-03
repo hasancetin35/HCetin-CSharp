@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HCetin_CSharp
 {
-    public class Odevler
+    public  class Odevler
     {
         public void İlk() {
 
@@ -310,13 +310,44 @@ namespace HCetin_CSharp
 
 
 
+        }
 
+        public string Yazdir(string a, string b)
+        {
 
+            return a + b;
+        
+        
+        }
 
-
+        public int Yazdir(int a, int b)
+        {
+            return a + b;
 
 
         }
+
+
+        public int fak(int n)
+
+        {
+
+            if (1<=n)
+            {
+                return 1;
+            }
+
+            return n * fak(n - 1);
+        
+        }
+
+
+        
+
+        
+
+        
+
 
 
 
