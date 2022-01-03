@@ -25,18 +25,23 @@ namespace HCetin_CSharp
 
             // nesne.SwitchCase();
 
-            nesne.whileornek();
+            //nesne.whileornek();
 
-            nesne.diziler();
+            //nesne.diziler();
 
-            nesne.whileornek();
+            //nesne.whileornek();
 
-            nesne.Yazdir(5 , 6);
-            nesne.Yazdir("Hasan", "Çetin");
+            //nesne.Yazdir(5 , 6);
+            //nesne.Yazdir("Hasan", "Çetin");
 
-            Console.WriteLine(nesne.fak(6));
+            //Console.WriteLine(nesne.fak(6));
 
-            
+            AlgoritmaSorulari alg = new AlgoritmaSorulari();
+
+            // alg.ciftmi();
+            // alg.psayikontrol();
+            //alg.sonyaz();
+            alg.hksayisi();
         }
     }
 }
