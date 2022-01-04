@@ -41,7 +41,8 @@ namespace HCetin_CSharp
             // alg.ciftmi();
             // alg.psayikontrol();
             //alg.sonyaz();
-            alg.hksayisi();
+            //alg.hksayisi();
+            alg.test();
         }
     }
 }

@@ -123,6 +123,106 @@ namespace HCetin_CSharp
         }
 
 
+        public void test()
+        {
+
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            string[] kelime;
+            kelime = new string[n];
+            
+
+            for (int i = 0; i < n; i++)
+            {
+                kelime[i] = Console.ReadLine();
+
+            }
+
+
+            for (int j = 0; j < n; j++)
+            {
+                string tk = "";
+                string ck = "";
+
+                for (int sy = 0; sy < kelime[j].Length; sy++)
+                {
+
+
+                    if (sy % 2 == 0 || sy==0)
+                    {
+
+                        ck = ck + kelime[j].Substring(sy, 1 );
+
+
+                    }
+                    else
+                    {
+
+                        tk = tk + kelime[j].Substring(sy, 1 );
+
+                    }
+
+
+                }
+
+                Console.WriteLine(ck + " " + tk);
+
+            }
+
+
+        }
+
+        public void strmetot()
+        {
+
+
+            string sdegisken = "Hasan ÇETİN";
+
+            Console.WriteLine(sdegisken.ToUpper());
+            Console.WriteLine(sdegisken.ToLower());
+
+            Console.WriteLine(sdegisken.StartsWith("PAtika "));
+
+            Console.WriteLine(sdegisken.IndexOf("Ha"));
+
+            Console.WriteLine(sdegisken.Remove(4, 8));
+
+
+
+
+        }
+
+
+        public void dtmath()
+        {
+
+            Console.WriteLine(DateTime.Now.Day);
+            Console.WriteLine(DateTime.Now.DayOfYear);
+
+            Console.WriteLine(DateTime.Now.Second);
+            Console.WriteLine(DateTime.Now.AddHours(2));
+
+            Console.WriteLine(DateTime.Now.ToString("HH"));
+
+
+            Console.WriteLine(Math.Pow(2, 4));
+
+            Console.WriteLine(Math.Abs(-23));
+            Console.WriteLine(Math.Sqrt(9));
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+    }
 
 
 
