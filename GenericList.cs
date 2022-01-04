@@ -82,6 +82,8 @@ namespace HCetin_CSharp
 
             });
 
+            kullanicilistesi.Clear();
+
 
 
 
