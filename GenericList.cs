@@ -74,7 +74,13 @@ namespace HCetin_CSharp
             kullanicilistesi.Add(kullanicinesne);
             kullanicilistesi.Add(kullanicinesne2);
 
+            kullanicilistesi.Add(new kullanici()
+            {
+                Isim="efe",
+                Soyisim="cetin",
+                Yas=2
 
+            });
 
 
 
