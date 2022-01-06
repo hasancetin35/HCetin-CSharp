@@ -44,12 +44,17 @@ namespace HCetin_CSharp
             //alg.hksayisi();
             //alg.test();
 
-            SinifOrnek snf = new SinifOrnek();
-
-            snf.ad = "Hasan";
-            snf.soyad = "ÇETİN";
-            snf.yas = 33;
+            SinifOrnek snf = new SinifOrnek("Hasa","cetin",32);
             snf.bilgigoster();
+
+            //snf.ad = "Hasan";
+            //snf.soyad = "ÇETİN";
+            //snf.yas = 33;
+            //snf.bilgigoster();
+
+
+
+
 
         }
     }

@@ -16,6 +16,24 @@ namespace HCetin_CSharp
 
         public int yas;
 
+
+        public SinifOrnek(string Ad, string Soyad, int Yas)
+        {
+
+            ad = Ad;
+            soyad = Soyad;
+            yas = Yas;
+
+
+        }
+
+        public SinifOrnek()
+        {
+
+
+        }
+
+
         public void bilgigoster()
         {
 

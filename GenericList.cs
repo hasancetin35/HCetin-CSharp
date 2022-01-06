@@ -11,7 +11,7 @@ namespace HCetin_CSharp
         {
 
 
-            List<int> sayilistesi = new List<int>;
+            List<int> sayilistesi = new List<int>();
 
 
             sayilistesi.Add(4);
