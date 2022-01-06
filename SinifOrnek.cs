@@ -17,14 +17,20 @@ namespace HCetin_CSharp
         public int yas;
 
 
-        public SinifOrnek(string Ad, string Soyad, int Yas)
+        private string meslek;
+
+        private int boy;
+
+        public string Meslek { get => meslek; set => meslek = value; }
+        public int Boy { get => boy; set => boy = value; }
+
+        public SinifOrnek(string Ad, string Soyad, int Yas, string meslek)
         {
 
             ad = Ad;
             soyad = Soyad;
             yas = Yas;
-
-
+            Meslek = meslek;
         }
 
         public SinifOrnek()
@@ -40,6 +46,7 @@ namespace HCetin_CSharp
             Console.WriteLine(ad);
             Console.WriteLine(soyad);
             Console.WriteLine(yas);
+            Console.WriteLine(Meslek);
 
 
         }
