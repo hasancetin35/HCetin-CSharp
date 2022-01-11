@@ -54,7 +54,7 @@ namespace HCetin_CSharp
 
             Koleksiyon1 kls = new Koleksiyon1();
 
-            kls.odev1();
+            kls.odev2();
 
 
 

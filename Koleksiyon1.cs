@@ -78,6 +78,68 @@ namespace HCetin_CSharp
         }
 
         //  
+        public void odev2()
+        {
+            ArrayList fsayi = new ArrayList();
+            ArrayList bsayi = new ArrayList();
+            ArrayList ksayi = new ArrayList();
+
+            int sayi = 0;
+
+            do
+            {
+                try
+                {
+                    int gsayi = Convert.ToInt32(Console.ReadLine());
+
+                    if (gsayi > 0)
+                    {
+
+
+
+                        fsayi.Add(gsayi);
+
+
+                        sayi++;
+                    }
+                }
+                catch (Exception)
+                {
+                }
+
+            } while (sayi < 20);
+
+            fsayi.Sort();
+
+            int bortalama = 0;
+            int kortalama = 0;
+            for (int i = 0; i < 3; i++)
+            {
+               Console.WriteLine( fsayi[i]);
+                kortalama = kortalama + Convert.ToInt32(fsayi[i]);
+            }
+            Console.WriteLine(" Toplamı = " + kortalama + "ortalaması " + kortalama / 3);
+            fsayi.Reverse();
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(fsayi[i]);
+                bortalama = bortalama + Convert.ToInt32(fsayi[i]);
+
+            }
+            Console.WriteLine("Toplamı " + bortalama + "ortalaması" + bortalama / 3);
+
+
+
+            //
+
+
+
+
+
+
+
+        }
 
 
 

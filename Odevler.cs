@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace HCetin_CSharp
 {
-    public  class Odevler
+    public class Odevler
     {
-        public void İlk() {
+        public void İlk()
+        {
 
             Console.WriteLine("Merhaba adınızı giriniz");
             string isim = Console.ReadLine();
@@ -21,8 +22,8 @@ namespace HCetin_CSharp
 
 
 
-        
-        
+
+
         }
 
 
@@ -82,9 +83,9 @@ namespace HCetin_CSharp
 
             }
 
-            if (isSucces  || iscompleted)
+            if (isSucces || iscompleted)
             {
-                Console.WriteLine("Harika"); 
+                Console.WriteLine("Harika");
 
             }
 
@@ -124,7 +125,7 @@ namespace HCetin_CSharp
             string f = " dünya";
 
             char g = '2';
-            object obj = e + f+ g;
+            object obj = e + f + g;
 
             Console.Write(obj);
 
@@ -132,7 +133,8 @@ namespace HCetin_CSharp
         }
 
 
-        public void hatayakalama() {
+        public void hatayakalama()
+        {
 
             try
             {
@@ -179,7 +181,7 @@ namespace HCetin_CSharp
             string sonuc = time <= 12 ? "Günaydın" : time <= 18 ? "Tünaydın" : " iyi geceler";
         }
 
-        public void SwitchCase ()
+        public void SwitchCase()
         {
 
             int month = DateTime.Now.Month;
@@ -190,7 +192,7 @@ namespace HCetin_CSharp
             {
 
                 case 1:
-                Console.WriteLine("Ocak");
+                    Console.WriteLine("Ocak");
                     break;
                 case 2:
                     Console.WriteLine("Şubat");
@@ -231,7 +233,7 @@ namespace HCetin_CSharp
             int sayi = int.Parse(Console.ReadLine());
             int sayac = 1;
             int toplam = 0;
-            while (sayac<=sayi)
+            while (sayac <= sayi)
             {
 
 
@@ -316,8 +318,8 @@ namespace HCetin_CSharp
         {
 
             return a + b;
-        
-        
+
+
         }
 
         public int Yazdir(int a, int b)
@@ -332,21 +334,21 @@ namespace HCetin_CSharp
 
         {
 
-            if (1<=n)
+            if (1 <= n)
             {
                 return 1;
             }
 
             return n * fak(n - 1);
-        
+
         }
 
 
-        
 
-        
 
-        
+
+
+
 
 
 
