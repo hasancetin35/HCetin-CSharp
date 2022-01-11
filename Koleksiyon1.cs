@@ -30,18 +30,18 @@ namespace HCetin_CSharp
 
                         for (int kontrol = 2; kontrol < gsayi; kontrol++)
                         {
-                            if (gsayi % kontrol == 0)
+                            if (gsayi%kontrol == 0)
                             {
                                 durum++;
                             }
                         }
                         if (durum != 0 )
                         {
-                           digersayilar.Add(sayi);
+                           digersayilar.Add(gsayi);
                         }
                         else
                         {
-                             asalsayilar.Add(sayi);
+                             asalsayilar.Add(gsayi);
                             
                         }
                         sayi++;
@@ -75,18 +75,9 @@ namespace HCetin_CSharp
             }
             Console.WriteLine("Diger sayı sayısı " + digersayilar.Count + " ortalama" + bsayitopla / digersayilar.Count);
 
-
-
-
-
-
-
-
-
-
-
-
         }
+
+        //  
 
 
 
