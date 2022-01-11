@@ -7,7 +7,7 @@ namespace HCetin_CSharp
         static void Main(string[] args)
         {
 
-            Odevler nesne = new Odevler();
+         //   Odevler nesne = new Odevler();
 
             // nesne.İlk();
 
@@ -36,7 +36,7 @@ namespace HCetin_CSharp
 
             //Console.WriteLine(nesne.fak(6));
 
-            AlgoritmaSorulari alg = new AlgoritmaSorulari();
+            //  AlgoritmaSorulari alg = new AlgoritmaSorulari();
 
             // alg.ciftmi();
             // alg.psayikontrol();
@@ -44,14 +44,17 @@ namespace HCetin_CSharp
             //alg.hksayisi();
             //alg.test();
 
-            SinifOrnek snf = new SinifOrnek("Hasa","cetin",32);
-            snf.bilgigoster();
+            //   SinifOrnek snf = new SinifOrnek("Hasa","cetin",32);
+            // snf.bilgigoster();
 
             //snf.ad = "Hasan";
             //snf.soyad = "ÇETİN";
             //snf.yas = 33;
             //snf.bilgigoster();
 
+            Koleksiyon1 kls = new Koleksiyon1();
+
+            kls.odev1();
 
 
 

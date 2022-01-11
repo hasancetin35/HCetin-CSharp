@@ -102,4 +102,19 @@ namespace HCetin_CSharp
     }
 
 
+
+    enum Gunler
+    {
+
+        Pazartesi,
+        Sali,
+        Çarşamba,
+        Perşembe, 
+        Cuma,
+        Cumartesi,
+        Pazar
+
+    }
+
+
 }
